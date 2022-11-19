@@ -1,3 +1,4 @@
+// Цель - освоить работу с классами на Java
 package pract_1;
 import java.lang.*;
 
