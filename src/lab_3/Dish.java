@@ -1,6 +1,6 @@
 package lab_3;
 
-public class Dish {
+public abstract class Dish {
     protected String material;
     protected String color;
 
@@ -25,8 +25,7 @@ public class Dish {
         this.color = color;
     }
 
-    @Override
-    public String toString() {
-        return "Посуда: материал " + material + ", цвет " + color;
-    }
+    public abstract String toString();
+
+    //abstract String useDish();
 }
