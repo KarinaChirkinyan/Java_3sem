@@ -4,16 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6ad7c976-b8a3-468b-a6fd-5d233b4795f9" name="Changes" comment="Лабораторная работа 3: Наследование в java">
-      <change afterPath="$PROJECT_DIR$/src/lab_4/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab_4/Nameable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lab_4/Planets.java" afterDir="false" />
+    <list default="true" id="6ad7c976-b8a3-468b-a6fd-5d233b4795f9" name="Changes" comment="Лабораторная работа 3">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab_5/MyApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab_7/TestArrayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab_8/A.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab_8/File.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pract_5/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pract_6/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pract_6/TestStudent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lab_1/Factorial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab_1/Factorial.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lab_2/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab_2/Book.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lab_2/BookTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab_2/BookTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pract_1/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pract_1/Book.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pract_1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pract_1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pract_3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pract_3/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pract_4/Match.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pract_4/Match.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,16 +52,17 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.CommitDialog&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.lab_4.Main">
-    <configuration name="BookTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lab_2.BookTest" />
+  <component name="RunManager" selected="Application.File">
+    <configuration name="File" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lab_8.File" />
       <module name="Java_3sem" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lab_2.*" />
+          <option name="PATTERN" value="lab_8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -62,12 +70,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Match" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pract_4.Match" />
+    <configuration name="MyApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lab_5.MyApp" />
       <module name="Java_3sem" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pract_4.*" />
+          <option name="PATTERN" value="lab_5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -75,12 +83,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="lab_1.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lab_1.Main" />
+    <configuration name="TestArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lab_7.TestArrayList" />
       <module name="Java_3sem" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lab_1.*" />
+          <option name="PATTERN" value="lab_7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="lab_3.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lab_3.Main" />
+    <configuration name="TestStudent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pract_6.TestStudent" />
       <module name="Java_3sem" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lab_3.*" />
+          <option name="PATTERN" value="pract_6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,12 +109,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="lab_4.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lab_4.Main" />
+    <configuration name="pract_5.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pract_5.Main" />
       <module name="Java_3sem" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lab_4.*" />
+          <option name="PATTERN" value="pract_5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,13 +122,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.File" />
+      <item itemvalue="Application.TestStudent" />
+      <item itemvalue="Application.TestArrayList" />
+      <item itemvalue="Application.MyApp" />
+      <item itemvalue="Application.pract_5.Main" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.lab_4.Main" />
-        <item itemvalue="Application.lab_3.Main" />
-        <item itemvalue="Application.Match" />
-        <item itemvalue="Application.BookTest" />
-        <item itemvalue="Application.lab_1.Main" />
+        <item itemvalue="Application.File" />
+        <item itemvalue="Application.TestStudent" />
+        <item itemvalue="Application.TestArrayList" />
+        <item itemvalue="Application.pract_5.Main" />
+        <item itemvalue="Application.MyApp" />
       </list>
     </recent_temporary>
   </component>
@@ -175,7 +190,21 @@
       <option name="project" value="LOCAL" />
       <updated>1669413133253</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Лабораторная работа 4: Интерфейсы в java">
+      <created>1669414653456</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1669414653456</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Лабораторная работа 3">
+      <created>1670342832901</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1670342832901</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -222,7 +251,9 @@
     <MESSAGE value="Практическая работа 3: Наследование. Абстрактные суперклассы и их подклассы в java" />
     <MESSAGE value="Практическая работа 4: Создание GUI" />
     <MESSAGE value="Лабораторная работа 3: Наследование в java" />
-    <option name="LAST_COMMIT_MESSAGE" value="Лабораторная работа 3: Наследование в java" />
+    <MESSAGE value="Лабораторная работа 4: Интерфейсы в java" />
+    <MESSAGE value="Лабораторная работа 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Лабораторная работа 3" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

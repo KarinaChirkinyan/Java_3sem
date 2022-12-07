@@ -3,10 +3,13 @@ import java.lang.*;
 
 public class BookTest {
     public static void main(String[] args) {
-        Book book = new Book("Льюис Кэрролл", "Алиса в стране чудес", 1865, 250);
+        Book book = new Book();
 
-        System.out.println(book.getKolstr());
-        book.setkolStr(150);
-        System.out.println("Новое количество страниц: "+book.getKolstr());
+        book.author.setAuthor("Льюис Кэрролл", 'м');
+        book.name.setName("Алиса в стране чудес");
+        book.year.setYear(1865);
+        System.out.println(book.name.getName());
+        System.out.println(book.author.getAuthorName());
+        System.out.println(book.author.getAuthorGender());
     }
 }

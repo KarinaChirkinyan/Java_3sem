@@ -8,6 +8,7 @@ public class Main {
         Book book2 = new Book("Кот в сапогах");
         book2.setDate(2000);
         System.out.println(book1);
+        System.out.println(book2);
         book1.library();
         book2.library();
     }

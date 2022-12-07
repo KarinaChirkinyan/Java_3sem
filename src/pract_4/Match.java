@@ -5,7 +5,8 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 
 public class Match extends JFrame {
-    JLabel LastScorer = new JLabel(), Result = new JLabel(), Winner = new JLabel();
+    JLabel LastScorer = new JLabel(), Result = new JLabel();
+    Label Winner = new Label();
     int re = 0, mil = 0;
 
     JButton JBRe = new JButton("Real Madrid"), JBMil = new JButton("AC Milan");
@@ -83,8 +84,8 @@ public class Match extends JFrame {
         Result.setVerticalAlignment(JLabel.CENTER);
         Result.setHorizontalAlignment(JLabel.CENTER);
 
-        Winner.setVerticalAlignment(JLabel.CENTER);
-        Winner.setHorizontalAlignment(JLabel.CENTER);
+        //Winner.setVerticalAlignment(Label.CENTER);
+        //Winner.setHorizontalAlignment(JLabel.CENTER);
 
         LastScorer.setVerticalAlignment(JLabel.CENTER);
         LastScorer.setHorizontalAlignment(JLabel.CENTER);

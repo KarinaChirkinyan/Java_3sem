@@ -2,6 +2,7 @@ package lab_1;
 
 public class Factorial {
     private int num;
+    public Factorial() {}
     public int getFactorial(int n){
         int res = 1;
         num = n;

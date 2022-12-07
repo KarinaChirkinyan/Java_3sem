@@ -8,7 +8,7 @@ public class Main {
         System.out.println(s1.getPerimeter()); // which version?
         System.out.println(s1.getColor());
         System.out.println(s1.isFilled());
-        // System.out.println(s1.getRadius()); не будет работать т.к. у класса нет такого метода
+        //System.out.println(s1.getRadius()); не будет работать т.к. у класса нет такого метода
 
         Circle c1 = (Circle)s1; // Downcast back to Circle
         System.out.println(c1);
@@ -18,7 +18,7 @@ public class Main {
         System.out.println(c1.isFilled());
         System.out.println(c1.getRadius());
 
-        // Shape s2 = new Shape(); не будет работать т.к. нельзя создавать экземпляры абстрактного класса
+        //Shape s2 = new Shape(); не будет работать т.к. нельзя создавать экземпляры абстрактного класса
 
         Shape s3 = new Rectangle(1.0, 2.0, "RED", false); // Upcast
         System.out.println(s3);
@@ -39,15 +39,15 @@ public class Main {
         System.out.println(s4.getColor());
         //System.out.println(s4.getSide());
         // Take note that we downcast Shape s4 to Rectangle,
-// which is a superclass of Square, instead of Square
+        // which is a superclass of Square, instead of Square
         Rectangle r2 = (Rectangle)s4;
         System.out.println(r2);
         System.out.println(r2.getArea());
         System.out.println(r2.getColor());
-        // System.out.println(r2.getSide());не будет работать т.к. у класса нет такого метода
+        //System.out.println(r2.getSide()); не будет работать т.к. у класса нет такого метода
         System.out.println(r2.getLength());
 
-// Downcast Rectangle r2 to Square
+        // Downcast Rectangle r2 to Square
         Square sq1 = (Square)r2;
         System.out.println(sq1);
         System.out.println(sq1.getArea());

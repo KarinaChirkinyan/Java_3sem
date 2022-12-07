@@ -26,9 +26,9 @@ public class Book {
     public int getDate(){
         return publ_date;
     }
-    public String toString(){
-        return this.name+", "+this.publ_date;
-    }
+//    public String toString(){
+//        return this.name+", "+this.publ_date;
+//    }
     public void library(){
         System.out.println("Название: " + name + ", Год: " + publ_date);
     }
