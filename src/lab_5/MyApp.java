@@ -16,7 +16,6 @@ class MyApp extends JFrame {
     MyApp() {
         super("Some shapes");
         setSize(WINDOW_WIDTH, WINDOW_HEIGHT);
-        //setBackground(Color.BLACK);
         setLocation(300, 300);
         setLayout(null);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -37,7 +36,7 @@ class MyApp extends JFrame {
             app.set_background_image_path(args[0]);
         }
         else {
-            System.out.println("[!] Background image path is empty");
+            System.out.println("Background image path is empty");
         }
     }
 }
