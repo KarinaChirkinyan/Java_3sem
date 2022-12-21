@@ -5,15 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6ad7c976-b8a3-468b-a6fd-5d233b4795f9" name="Changes" comment="java">
-      <change afterPath="$PROJECT_DIR$/src/lab_9/Exception1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pract_7/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pract_8/BoundedWaitList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pract_8/IWaitList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pract_8/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pract_8/UnfairWaitList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pract_8/WaitList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pract_9/InnException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pract_9/Task1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lab_6/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lab_5/MyApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab_5/MyApp.java" afterDir="false" />
     </list>
@@ -43,21 +35,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/karin/OneDrive/Рабочий стол/Универ/Java_3sem/src/pract_8",
-    "settings.editor.selected.configurable": "project.propVCSSupport.CommitDialog"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/karin/OneDrive/Рабочий стол/Универ/Java_3sem/src/pract_8&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.CommitDialog&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\karin\OneDrive\Рабочий стол\Универ\Java_3sem\src\pract_8" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.pract_8.Main">
+  <component name="RunManager" selected="Application.lab_6.Main">
     <configuration name="Exception1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lab_9.Exception1" />
       <module name="Java_3sem" />
@@ -84,12 +76,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pract_7.Main" />
+    <configuration name="MyApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lab_5.MyApp" />
       <module name="Java_3sem" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pract_7.*" />
+          <option name="PATTERN" value="lab_5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestStudent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pract_6.TestStudent" />
+    <configuration name="lab_6.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lab_6.Main" />
       <module name="Java_3sem" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pract_6.*" />
+          <option name="PATTERN" value="lab_6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,19 +130,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.File" />
+      <item itemvalue="Application.MyApp" />
+      <item itemvalue="Application.lab_6.Main" />
       <item itemvalue="Application.pract_8.Main" />
       <item itemvalue="Application.Exception1" />
-      <item itemvalue="Application.Main" />
       <item itemvalue="Application.Task1" />
-      <item itemvalue="Application.TestStudent" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.lab_6.Main" />
+        <item itemvalue="Application.MyApp" />
         <item itemvalue="Application.pract_8.Main" />
         <item itemvalue="Application.Task1" />
         <item itemvalue="Application.Exception1" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.TestStudent" />
       </list>
     </recent_temporary>
   </component>
@@ -226,7 +218,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670401793780</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="java">
+      <created>1670696049504</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1670696049504</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -235,6 +234,11 @@
         <entry key="MAIN">
           <value>
             <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="false" />
+                </map>
+              </option>
               <option name="FILTERS">
                 <map>
                   <entry key="user">
@@ -276,7 +280,8 @@
     <MESSAGE value="Лабораторная работа 4: Интерфейсы в java" />
     <MESSAGE value="Лабораторная работа 3" />
     <MESSAGE value="практические 5-6&#10;лабораторные 7-8" />
-    <option name="LAST_COMMIT_MESSAGE" value="практические 5-6&#10;лабораторные 7-8" />
+    <MESSAGE value="java" />
+    <option name="LAST_COMMIT_MESSAGE" value="java" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
